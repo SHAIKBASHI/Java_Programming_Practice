@@ -1,0 +1,18 @@
+//WordsLength
+import java.util.*;
+public class WordsLength{
+	public static void main(String args[]){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the String");
+		String str=sc.nextLine();
+		String[] words=str.split(" ");
+		HashMap<String,Integer> map=new HashMap<>();
+		for(String word:words){
+
+			map.put(word,word.length());
+		}
+		System.out.println(map);
+		
+
+	}
+}
