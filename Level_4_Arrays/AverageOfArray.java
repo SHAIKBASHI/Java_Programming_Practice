@@ -20,5 +20,5 @@ public class AverageOfArray{
 
 			System.out.println("Average of all elements in the array is : "+avg);
 			System.out.println("Sum of all elements in the array is : "+sum);
-	}
+ 	}
 }
